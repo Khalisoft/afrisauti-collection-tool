@@ -33,9 +33,9 @@ const DEFAULTS: CommonVoiceConfig = {
   VERSION: null, // Migration number (e.g. 20171205171637), null = most recent
   RELEASE_VERSION: null, // release version set by nubis,
   PROD: false, // Set to true for staging and production.
-  SERVER_PORT: 9000,
+  SERVER_PORT: 80,
   DB_ROOT_USER: 'root', // For running schema migrations.
-  DB_ROOT_PASS: '',
+  DB_ROOT_PASS: 'Aman@Secured2019',
   MYSQLUSER: 'voicecommons', // For normal DB interactions.
   MYSQLPASS: 'voicecommons',
   MYSQLDBNAME: 'voiceweb',
@@ -51,9 +51,10 @@ const DEFAULTS: CommonVoiceConfig = {
     useDualstack: true,
   },
   AUTH0: {
-    DOMAIN: '',
-    CLIENT_ID: '',
-    CLIENT_SECRET: '',
+    DOMAIN: 'amansulaiman.auth0.com',
+    CLIENT_ID: 'yi5ySSvPKO0iH1f140H9pIcMy2Rth45L',
+    CLIENT_SECRET:
+      'm5ULp3Y274E_5cOZrApMaA5VAu73Cin2Azhbl9_RRXxNAiKItjGuSOi3j4vJw2Ef',
   },
   IMPORT_SENTENCES: true,
   REDIS_URL: null,

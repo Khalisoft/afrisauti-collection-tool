@@ -81,8 +81,8 @@ apache::vhost { $project_name:
     ProxyPass /font !
     ProxyPass /locales !
 
-    ProxyPass / http://localhost:9000/ retry=0
-    ProxyPassReverse / http://localhost:9000/
+    ProxyPass / http://localhost:80/ retry=0
+    ProxyPassReverse / http://localhost:80/
 
 ",
     headers            => [
