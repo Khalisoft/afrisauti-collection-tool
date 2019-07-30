@@ -45,7 +45,8 @@ const DEFAULTS: CommonVoiceConfig = {
   BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
   SECRET: 'TODO: Set a secure SECRET in config.json',
-  ADMIN_EMAILS: '["amansulaiman92@gmail.com"]', // array of admin emails, as JSON
+  ADMIN_EMAILS:
+    '["amansulaiman92@gmail.com", "i@amansulaiman.me", "hubuktechnology@outlook.com"]', // array of admin emails, as JSON
   S3_CONFIG: {
     signatureVersion: 'v4',
     useDualstack: true,
