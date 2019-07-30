@@ -45,7 +45,7 @@ async function fetchPontoonLanguages() {
       direction: locale.direction,
       translated: approvedStrings / totalStrings,
     }))
-    .concat({ code: 'en', name: 'English', translated: 1, direction: 'LTR' })
+    .concat({ code: 'ha', name: 'Hausa', translated: 1, direction: 'LTR' })
     .sort((l1, l2) => l1.code.localeCompare(l2.code));
 }
 
