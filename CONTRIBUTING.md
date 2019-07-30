@@ -50,7 +50,7 @@ This is going to:
 - Mount the project using a docker volume to allow reflecting changes to the codebase directly to the container.
 - Launch `voice-web` server
 
-You can visit the website at [http://localhost:9000](http://localhost:9000).
+You can visit the website at [http://localhost:8080](http://localhost:8080).
 
 To modify the configuration listed in config-helper.ts (e.g server port), you need to modify the file `local-docker-config.json` in `voice-web/docker`.
 

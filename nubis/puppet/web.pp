@@ -12,7 +12,7 @@ class { 'apache::mod::proxy': }
 class { 'apache::mod::proxy_http': }
 
 apache::vhost { $project_name:
-    port               => 80,
+    port               => 8080,
     default_vhost      => true,
     docroot            => "/var/www/${project_name}/web",
     docroot_owner      => 'root',
@@ -81,8 +81,8 @@ apache::vhost { $project_name:
     ProxyPass /font !
     ProxyPass /locales !
 
-    ProxyPass / http://localhost:80/ retry=0
-    ProxyPassReverse / http://localhost:80/
+    ProxyPass / http://localhost:8080/ retry=0
+    ProxyPassReverse / http://localhost:8080/
 
 ",
     headers            => [

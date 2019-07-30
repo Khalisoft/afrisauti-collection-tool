@@ -1,7 +1,7 @@
 {{ $redis := jsonArray ( getv "/config/Cache/Endpoint" ) -}}
 {{ $redis := (index (index $redis 0) 0).address -}}
 {
-  "port": 80,
+  "port": 8080,
   "logfile": "/var/log/voice.log",
   "PROD": true,
   "DB_ROOT_USER": "{{ if exists "/config/Database/User" }}{{ getv "/config/Database/User" }}{{ else }}voicecommons{{ end }}",
