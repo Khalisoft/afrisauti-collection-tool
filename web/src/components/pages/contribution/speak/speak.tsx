@@ -514,22 +514,41 @@ class SpeakPage extends React.Component<Props, State> {
         )}
         <ContributionPage
           activeIndex={recordingIndex}
-          instruction={props => (
-            <Localized
-              id={
-                this.isRecording
-                  ? 'record-stop-instruction'
-                  : recordingIndex === SET_COUNT - 1
-                  ? 'record-last-instruction'
-                  : ['record-instruction', 'record-again-instruction'][
-                      recordingIndex
-                    ] || 'record-again-instruction2'
-              }
-              recordIcon={<MicIcon />}
-              stopIcon={<StopIcon />}
-              {...props}
-            />
-          )}
+          errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
+          instruction={props =>
+            error ? (
+              <div className="error">
+                <Localized
+                  id={
+                    {
+                      [RecordingError.TOO_SHORT]: 'record-error-too-short',
+                      [RecordingError.TOO_LONG]: 'record-error-too-long',
+                      [RecordingError.TOO_QUIET]: 'record-error-too-quiet',
+                      [AudioError.NOT_ALLOWED]: 'record-must-allow-microphone',
+                      [AudioError.NO_MIC]: 'record-no-mic-found',
+                      [AudioError.NO_SUPPORT]: 'record-platform-not-supported',
+                    }[error]
+                  }
+                  {...props}
+                />
+              </div>
+            ) : (
+              <Localized
+                id={
+                  this.isRecording
+                    ? 'record-stop-instruction'
+                    : recordingIndex === SET_COUNT - 1
+                    ? 'record-last-instruction'
+                    : ['record-instruction', 'record-again-instruction'][
+                        recordingIndex
+                      ] || 'record-again-instruction2'
+                }
+                recordIcon={<MicIcon />}
+                stopIcon={<StopIcon />}
+                {...props}
+              />
+            )
+          }
           isFirstSubmit={user.recordTally === 0}
           isPlaying={this.isRecording}
           isSubmitted={isSubmitted}
