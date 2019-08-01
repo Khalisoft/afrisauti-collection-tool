@@ -41,8 +41,8 @@ const DEFAULTS: CommonVoiceConfig = {
   MYSQLDBNAME: 'voiceweb',
   MYSQLHOST: 'localhost',
   MYSQLPORT: 3306,
-  BUCKET_NAME: 'common-voice-corpus',
-  BUCKET_LOCATION: '',
+  BUCKET_NAME: 'afri-speech',
+  BUCKET_LOCATION: 'us-east-2',
   ENVIRONMENT: 'default',
   SECRET: 'TODO: Set a secure SECRET in config.json',
   ADMIN_EMAILS:
