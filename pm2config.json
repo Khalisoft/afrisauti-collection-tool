@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "script": "server/js/server.js",
+      "env": {
+        "PORT": "8080"
+      }
+    }
+  ]
+}
