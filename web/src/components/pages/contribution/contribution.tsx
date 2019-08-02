@@ -29,7 +29,7 @@ import Wave from './wave';
 
 import './contribution.css';
 
-export const SET_COUNT = 20;
+export const SET_COUNT = 5;
 
 export interface ContributionPillProps {
   isOpen: boolean;

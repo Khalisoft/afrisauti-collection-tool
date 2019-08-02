@@ -70,8 +70,8 @@ apache::vhost { $project_name:
     ProxyPass /img !
     ProxyPass /font !
     ProxyPass /locales !
-    ProxyPass / http://localhost:9000/ retry=0
-    ProxyPassReverse / http://localhost:9000/
+    ProxyPass / http://localhost:8080/ retry=0
+    ProxyPassReverse / http://localhost:8080/
 ",
     headers            => [
       # Nubis headers
