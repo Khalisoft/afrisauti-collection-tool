@@ -176,7 +176,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         {showStagingBanner && (
           <div className="staging-banner">
             You're on the staging server. Voice data is not collected here.{' '}
-            <a href="https://voice.mozilla.org" target="_blank">
+            <a href="https://donate.amansulaiman.me" target="_blank">
               Don't waste your breath.
             </a>{' '}
             <a

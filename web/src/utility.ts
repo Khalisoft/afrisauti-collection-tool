@@ -83,11 +83,11 @@ export function isMobileResolution(): boolean {
 }
 
 export function isProduction(): boolean {
-  return window.location.origin === 'https://voice.mozilla.org';
+  return window.location.origin === 'https://donate.amansulaiman.me';
 }
 
 export function isStaging(): boolean {
-  return window.location.origin === 'https://voice.allizom.org';
+  return window.location.origin === 'https://donate.amansulaiman.me';
 }
 
 export function getItunesURL(): string {
