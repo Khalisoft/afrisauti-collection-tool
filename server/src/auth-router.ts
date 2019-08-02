@@ -76,7 +76,8 @@ if (DOMAIN) {
         (({
           stage: 'https://donate.amansulaiman.me',
           prod: 'https://donate.amansulaiman.me',
-        } as any)[ENVIRONMENT] || '') + CALLBACK_URL,
+        } as any)[ENVIRONMENT] || 'https://donate.amansulaiman.me') +
+        CALLBACK_URL,
       scope: 'openid email',
     },
     (
