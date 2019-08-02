@@ -20,3 +20,4 @@ nubis/builder/artifacts/*
 
 # WebStorm
 .idea/
+aa.conf

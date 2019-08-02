@@ -12,7 +12,7 @@ class { 'apache::mod::proxy': }
 class { 'apache::mod::proxy_http': }
 
 apache::vhost { $project_name:
-    port               => 8080,
+    port               => 80,
     default_vhost      => true,
     docroot            => "/var/www/${project_name}/web",
     docroot_owner      => 'root',
@@ -34,23 +34,17 @@ apache::vhost { $project_name:
     AddType text/ftl .ftl
     AddType application/x-font-ttf        .ttf
     AddOutputFilterByType DEFLATE application/x-font-ttf
-
     # Deflate JavaScript
     AddOutputFilterByType DEFLATE text/javascript application/javascript
-
     # Deflate CSS
     AddOutputFilterByType DEFLATE text/css
-
     # Deflate SVG images
     AddOutputFilterByType DEFLATE image/svg+xml
-
     # Deflate FTL
     AddOutputFilterByType DEFLATE text/ftl
-
     # Sane expires defaults
     ExpiresActive On
     ExpiresDefault none
-
     # Assets
     AddType image/ico .ico
     ExpiresByType image/*  'access plus 60 days'
@@ -58,7 +52,6 @@ apache::vhost { $project_name:
     ExpiresByType application/javascript 'access plus 1 hour'
     ExpiresByType text/css 'access plus 1 hour'
     ExpiresByType text/ftl 'access plus 1 hour'
-
     # Fonts
     ExpiresByType application/x-font-ttf 'access plus 60 days'
       ",
@@ -67,23 +60,18 @@ apache::vhost { $project_name:
 
 
     custom_fragment    => "
-
     # Don't set default expiry on anything
     ExpiresActive Off
-
     # Proxy to nodejs ( keep retrying on backend failures )
     ProxyPass /server-status !
-
     # Handle static content ourselves
     ProxyPass /dist/bundle.js !
     ProxyPass /dist/index.css !
     ProxyPass /img !
     ProxyPass /font !
     ProxyPass /locales !
-
-    ProxyPass / http://localhost:8080/ retry=0
-    ProxyPassReverse / http://localhost:8080/
-
+    ProxyPass / http://localhost:9000/ retry=0
+    ProxyPassReverse / http://localhost:9000/
 ",
     headers            => [
       # Nubis headers
