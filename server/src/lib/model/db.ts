@@ -69,7 +69,7 @@ export default class DB {
    */
   async drop(): Promise<void> {
     if (!getConfig().PROD) {
-      //await this.schema.dropDatabase();
+      await this.schema.dropDatabase();
     }
   }
 

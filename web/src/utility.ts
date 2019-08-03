@@ -87,7 +87,7 @@ export function isProduction(): boolean {
 }
 
 export function isStaging(): boolean {
-  return window.location.origin === 'https://donate.amansulaiman.me';
+  return window.location.origin === 'https://staging.amansulaiman.me';
 }
 
 export function getItunesURL(): string {
