@@ -490,7 +490,7 @@ data-bundle-description = Common Voice data plus all other voice datasets above.
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixed
 
-review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
+review-terms = By using this Project, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 terms-agree = I agree
 terms-disagree = I do not agree
 review-aborted = Upload aborted. Do you want to delete your recordings?
