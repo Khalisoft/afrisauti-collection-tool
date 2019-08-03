@@ -76,8 +76,8 @@ export default class Server {
       setHeaders: (response: express.Response) => {
         // Only use CSP locally. In production, Apache handles CSP headers.
         // See path: nubis/puppet/web.pp
-        !getConfig().PROD &&
-          response.set('Content-Security-Policy', CSP_HEADER);
+        // !getConfig().PROD &&
+        //   response.set('Content-Security-Policy', CSP_HEADER);
       },
     };
 

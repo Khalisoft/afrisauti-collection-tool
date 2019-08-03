@@ -32,7 +32,7 @@ export type CommonVoiceConfig = {
 const DEFAULTS: CommonVoiceConfig = {
   VERSION: null, // Migration number (e.g. 20171205171637), null = most recent
   RELEASE_VERSION: null, // release version set by nubis,
-  PROD: true, // Set to true for staging and production.
+  PROD: false, // Set to true for staging and production.
   SERVER_PORT: 8080,
   DB_ROOT_USER: 'root', // For running schema migrations.
   DB_ROOT_PASS: 'Aman@Secured2019',
