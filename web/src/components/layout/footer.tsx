@@ -30,7 +30,7 @@ export default React.memo(() => {
   const [locale] = useLocale();
   return (
     <footer>
-      <div id="help-links">
+      {/* <div id="help-links">
         <LocaleLink id="help" to={URLS.FAQ}>
           <SupportIcon />
           <Localized id="help" onClick={() => trackNav('help', locale)}>
@@ -54,9 +54,9 @@ export default React.memo(() => {
             <div />
           </Localized>
         </ContactLink>
-      </div>
+      </div> */}
       <div id="moz-links">
-        <div className="logo-container">
+        {/* <div className="logo-container">
           <Logo reverse />
           <p className="license">
             <Localized
@@ -71,8 +71,8 @@ export default React.memo(() => {
               <span />
             </Localized>
           </p>
-        </div>
-        <div className="links">
+        </div> */}
+        {/* <div className="links">
           <div>
             <LocalizedLocaleLink id="privacy" to={URLS.PRIVACY} />
             <LocalizedLocaleLink id="terms" to={URLS.TERMS} />
@@ -86,7 +86,7 @@ export default React.memo(() => {
             </Localized>
             <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
           </div>
-        </div>
+        </div> */}
 
         <div id="sharing">
           <Localized id="share-title">
@@ -98,9 +98,9 @@ export default React.memo(() => {
           </div>
         </div>
 
-        <div id="email-subscription">
+        {/* <div id="email-subscription">
           <SubscribeNewsletter />
-        </div>
+        </div> */}
 
         <Localized id="back-top">
           <TextButton

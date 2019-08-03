@@ -140,7 +140,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Content available under a <licenseLink>Creative Commons license</licenseLink>
 share-title = Help us find others to donate their voice!
-share-text = Help teach machines how real people speak, donate your voice at { $link }
+share-text = Help us to teach machines how real African People speak to simplifies life in multilingual communities and alleviates humanitarian missions. Donate your voice at { $link }
 link-copied = Link Copied
 back-top = Back to Top
 logout = Log Out
@@ -310,7 +310,7 @@ profile-explanation = Keep track of your progress with a profile and help our vo
 thanks-for-account = Thanks for confirming your account, now let's build your profile.
 why-demographic = Why does this matter?
 why-demographic-explanation = Anonymized user data like age, sex, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
-accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
+accept-privacy = I'm okay with you handling this info as you explain in AfriSauti's <privacyLink>Privacy Policy</privacyLink>
 login-identity = Login Identity
 login-signup = Log In / Sign Up
 edit = Edit
@@ -413,10 +413,9 @@ faq-search-for-answers =
     .label = Search for answers
 
 ## ABOUT US
-about-title = Why Common Voice?
-about-subtitle = Common Voice is part of Mozilla's initiative to help teach machines how real people speak. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
-about-header-description = Both of these projects are part of our efforts to bridge the digital speech divide. Voice recognition technologies bring a human dimension to our devices, but developers need an enormous amount of voice data to build them. Currently, most of that data is expensive and proprietary.
-    We want to make voice data freely and publicly available, and make sure the data represents the diversity of real people. Together we can make voice recognition better for everyone.
+about-title = Why We are doing this Project?
+about-subtitle = For only a few of Africa’s many languages, speech processing technology has been analyzed and developed so far. Africa itself has more than 2,000 languages (out of 6000+ languages globally) plus many different accents, e.g. there are more than 280 languages in Cameroon alone. Moreso, among those languages some are widely adopted and becomes a lingua franca in their region e.g. Hausa is spoken in many countries in West Africa and served as a lingua franca.
+about-header-description = We aim to bring Speech recognition to African Languages starting with Hausa being the most popular spoken Language in Sub Saharan Africa and to bring voice enabled solutions (both software and hardware) to the small and medium enterprises that is fast, reliable and privately secured.
 how-does-it-work-title = How does it work?
 how-does-it-work-text = We’re crowdsourcing an open-source dataset of voices. Donate your voice, validate the accuracy of other people’s clips, make the dataset better for everyone.
 
@@ -443,10 +442,8 @@ about-partnership = Common Voice is a collaborative project, and we're depending
 
     We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Get involved
-about-get-involved-text = Want to help make Common Voice even better?
-    Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
-    submit feedback through <githubLink>GitHub</githubLink>,
-    or join us on <slackLink>Slack</slackLink>.
+about-get-involved-text = Want to help make this project even better?
+    Great! Get in touch via email (i@amansulaiman.me).
 
 about-nav-why-common-voice = Why ?
 about-nav-how-it-works = How ?
