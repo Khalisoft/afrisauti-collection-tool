@@ -90,10 +90,7 @@ function Success({
 
   const [contributionCount, setContributionCount] = useState(null);
   const [currentCount, setCurrentCount] = useState(null);
-  const showAccountModalDefault =
-    flags.showAccountConversionModal &&
-    !hasAccount &&
-    !JSON.parse(localStorage.getItem(HAS_SEEN_ACCOUNT_MODAL_KEY));
+  const showAccountModalDefault = true;
   const [showAccountModal, setShowAccountModal] = useState(
     showAccountModalDefault
   );
@@ -146,8 +143,9 @@ function Success({
         {...props}
       />
     ) : (
-      <TextButton
-        className="contribute-more-button secondary"
+      <Button
+        className="contribute-more-button"
+        rounded
         onClick={onReset}
         {...props}
       />
@@ -194,6 +192,13 @@ function Success({
         />
       </div>
 
+      <ContributeMoreButton>
+        {type === 'speak' ? <MicIcon /> : <PlayOutlineIcon />}
+        <Localized id="contribute-more" $count={SET_COUNT}>
+          <span />
+        </Localized>
+      </ContributeMoreButton>
+
       {hasAccount ? (
         !customGoal && (
           <div className="info-card">
@@ -218,13 +223,6 @@ function Success({
           </Localized>
         </div>
       )}
-
-      <ContributeMoreButton>
-        {type === 'speak' ? <MicIcon /> : <PlayOutlineIcon />}
-        <Localized id="contribute-more" $count={SET_COUNT}>
-          <span />
-        </Localized>
-      </ContributeMoreButton>
 
       {hasAccount && (
         <Localized id="edit-profile">
