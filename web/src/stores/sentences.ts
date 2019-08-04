@@ -2,7 +2,34 @@ import { Action as ReduxAction, Dispatch } from 'redux';
 const contributableLocales = require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
 
-const CACHE_SET_COUNT = 10;
+var isMobile = {
+  Android: function() {
+    return navigator.userAgent.match(/Android/i);
+  },
+  BlackBerry: function() {
+    return navigator.userAgent.match(/BlackBerry/i);
+  },
+  iOS: function() {
+    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  Opera: function() {
+    return navigator.userAgent.match(/Opera Mini/i);
+  },
+  Windows: function() {
+    return navigator.userAgent.match(/IEMobile/i);
+  },
+  any: function() {
+    return (
+      isMobile.Android() ||
+      isMobile.BlackBerry() ||
+      isMobile.iOS() ||
+      isMobile.Opera() ||
+      isMobile.Windows()
+    );
+  },
+};
+
+export const CACHE_SET_COUNT = isMobile.any() ? 40 : 10;
 
 export namespace Sentences {
   export interface Sentence {
