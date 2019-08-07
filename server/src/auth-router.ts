@@ -74,7 +74,7 @@ if (DOMAIN) {
       clientSecret: CLIENT_SECRET,
       callbackURL:
         (({
-          stage: 'https://donate.amansulaiman.me',
+          stage: 'https://staging.amansulaiman.me',
           prod: 'https://donate.amansulaiman.me',
         } as any)[ENVIRONMENT] || 'https://donate.amansulaiman.me') +
         CALLBACK_URL,

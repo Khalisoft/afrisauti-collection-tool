@@ -166,9 +166,9 @@ function Success({
 
   return (
     <div className="contribution-success">
-      {/* {showAccountModal && (
+      {showAccountModal && (
         <AccountModal onRequestClose={() => setShowAccountModal(false)} />
-      )} */}
+      )}
 
       <div className="counter done">
         <CheckIcon />

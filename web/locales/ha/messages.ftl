@@ -1,14 +1,14 @@
 ## General
-yes-receive-emails = Yes, send me emails. I’d like to stay informed about the Common Voice Project.
-stayintouch = We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
+yes-receive-emails = Yes, send me emails. I’d like to stay informed about the AfriSauti Project.
+stayintouch = We at Hubuk Technology are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
 privacy-info = We promise to handle your information with care. Read more in our <privacyLink>Privacy Notice</privacyLink>.
-return-to-cv = Return to Common Voice
+return-to-cv = Return to AfriSauti
 email-input =
     .label = Email
 submit-form-action = Submit
 loading = Loading…
-email-opt-in-info = I'd like to receive emails such as goal reminders, my progress updates and newsletters about Common Voice.
-email-opt-in-privacy = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy<privacyLink>.
+email-opt-in-info = I'd like to receive emails such as goal reminders, my progress updates and newsletters about AfriSauti.
+email-opt-in-privacy = By opting in to receive emails you state that you are okay with Hubuk Technology handling this info as explained in Hubuk Technology’s <privacyLink>Privacy Policy<privacyLink>.
 indicates-required = * Indicates required field
 not-available-abbreviation = N/A
 
@@ -147,7 +147,7 @@ logout = Log Out
 
 ## Home Page
 home-title =
-  Common Voice is Mozilla's initiative to help teach machines how real people speak.
+  AfriSauti is Hubuk Technology's initiative to help teach machines how real people speak.
 home-cta = Speak up, contribute here!
 wall-of-text-start =
   Voice is natural, voice is human. That’s why we’re fascinated with creating usable voice
@@ -155,7 +155,7 @@ wall-of-text-start =
   data is required.
 wall-of-text-more-mobile =
   Most of the data used by large companies isn’t available to the majority of people. We think
-  that stifles innovation. So we’ve launched Project Common Voice, a project to help make voice
+  that stifles innovation. So we’ve launched Project AfriSauti, a project to help make voice
   recognition open to everyone.
 wall-of-text-more-desktop =
   Now you can donate your voice to help us build an open-source voice database that anyone can use
@@ -167,7 +167,7 @@ wall-of-text-first =
   data.
 wall-of-text-second =
   Most of the data used by large companies isn’t available to the majority of people. We think that
-  stifles innovation. So we’ve launched Common Voice, a project to help make voice recognition open
+  stifles innovation. So we’ve launched AfriSauti, a project to help make voice recognition open
   and accessible to everyone.
 show-wall-of-text = Read More
 help-us-title = Help us validate sentences!
@@ -180,7 +180,7 @@ speak-subtitle = Donate your voice
 speak-paragraph = Recording voice clips is an integral part of building our open dataset; some would say it's the fun part too.
 speak-goal-text = Clips recorded
 listen-subtitle = Help us validate voices
-listen-paragraph = Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.
+listen-paragraph = Validating donated clips is equally important to the AfriSauti mission. Take a listen and help us create quality open source voice data.
 listen-goal-text = Clips validated
 hours-recorded = Hours Recorded
 hours-validated = Hours Validated
@@ -208,7 +208,7 @@ help-make-dataset = Help us build a high quality, publicly open dataset
 profile-not-required = Having a profile is not required to contribute though it is helpful
 sign-up-account = Sign up for an account
 email-subscription-title = sign up for email updates
-email-subscription-title-new = Sign up for Common Voice newsletters, goal reminders and progress updates
+email-subscription-title-new = Sign up for AfriSauti newsletters, goal reminders and progress updates
 
 ## Account Benefits
 benefits = Benefits
@@ -253,7 +253,7 @@ shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
 
-request-language-text = Don't see your language on Common Voice yet?
+request-language-text = Don't see your language on AfriSauti yet?
 request-language-button = Request a Language
 
 ## ProjectStatus
@@ -296,7 +296,7 @@ female = Female
 other = Other
 why-profile-title = Why a profile?
 why-profile-text =
-  By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
+  By providing some information about yourself, the audio data you submit to AfriSauti will be more useful to Speech
   Recognition engines that use this data to improve their accuracy.
 dashboard = Dashboard
 build-profile = Build Profile
@@ -338,35 +338,35 @@ change-email-setings = Change your email via Settings under Login Identity
 ## FAQ
 faq-title = Frequently Asked Questions
 
-faq-what-cv-q = What is Common Voice?
+faq-what-cv-q = What is AfriSauti?
 faq-what-cv-a =
-    Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is part of Mozilla’s initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
+    Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. AfriSauti is part of Hubuk Technology’s initiative to make voice recognition technologies better and more accessible for everyone. AfriSauti is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
 
-    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
+    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the AfriSauti dataset, we’re also building an open source speech recognition engine called Deep Speech.
 
 faq-why-important-q = Why is it important?
 faq-why-important-a =
-    Speech is often the most natural way we communicate with each other and voice technologies are bringing that convenience to our computers and mobile devices. We want to empower developers to build amazing voice recognition applications like real-time translators and voice-enabled digital assistants. But right now most of the voice data required to build these kinds of apps is expensive and proprietary. We hope the Common Voice dataset will give developers what they need to innovate and make speech technology available in their own language.
+    Speech is often the most natural way we communicate with each other and voice technologies are bringing that convenience to our computers and mobile devices. We want to empower developers to build amazing voice recognition applications like real-time translators and voice-enabled digital assistants. But right now most of the voice data required to build these kinds of apps is expensive and proprietary. We hope the AfriSauti dataset will give developers what they need to innovate and make speech technology available in their own language.
 
     To make voice recognition even more universal, we're collecting voice samples in widely spoken languages as well as those with a smaller population of speakers often underserved by commercial speech recognition services. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and entire speech communities to address this gap themselves.
 
-faq-how-get-q = How can I get the Common Voice data?
-faq-how-get-a = The Common Voice dataset is available for download under the <licenseLink>CC0</licenseLink> license on <datasetLink>our Datasets page</datasetLink>. You can also download several other publicly available datasets from the same page.
+faq-how-get-q = How can I get the AfriSauti data?
+faq-how-get-a = The AfriSauti dataset is available for download under the <licenseLink>CC0</licenseLink> license on <datasetLink>our Datasets page</datasetLink>. You can also download several other publicly available datasets from the same page.
 
-faq-when-release2-q = When will you release Common Voice data in other languages?
-faq-when-release2-a = The multi-language version of the Common Voice dataset is currently undergoing community supported bundling and cleaning. If you would like to help us bring Common Voice to new languages, go check out the <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> for adding new sentences to the dataset, and Mozilla <pontoonLink>Pontoon</pontoonLink> for translating the website itself. New languages are added to Common Voice for voice contribution when 5000 approved sentences have been collected.
+faq-when-release2-q = When will you release AfriSauti data in other languages?
+faq-when-release2-a = The multi-language version of the AfriSauti dataset is currently undergoing community supported bundling and cleaning. If you would like to help us bring AfriSauti to new languages, go check out the <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> for adding new sentences to the dataset, and Hubuk Technology <pontoonLink>Pontoon</pontoonLink> for translating the website itself. New languages are added to AfriSauti for voice contribution when 5000 approved sentences have been collected.
 
-faq-why-mission-q = Why is Common Voice part of the Mozilla mission?
-faq-why-mission-a = Mozilla is dedicated to keeping the web open and accessible for everyone. To do that we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally. That means investing in more languages and accommodating diverse accents and demographics when building and testing voice technologies. Common Voice is a public resource available to everyone and Mozilla teams and developers around the world are already using it on our own projects as well.
+faq-why-mission-q = Why is AfriSauti part of the Hubuk Technology mission?
+faq-why-mission-a = Hubuk Technology is dedicated to keeping the web open and accessible for everyone. To do that we need to empower web creators through projects like AfriSauti. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally. That means investing in more languages and accommodating diverse accents and demographics when building and testing voice technologies. AfriSauti is a public resource available to everyone and Hubuk Technology teams and developers around the world are already using it on our own projects as well.
 
-faq-what-cv-and-deepspeech-q = What’s the difference between Common Voice and Deep Speech?
-faq-what-cv-and-deepspeech-a = The Common Voice dataset complements Mozilla’s open source voice recognition engine Deep Speech. The first version of Deep Speech was released in November 2017 and has continued to evolve ever since. Together with the Common Voice dataset, we believe this open source voice recognition technology should be available to everybody. It’s our hope these technologies will enable developers to build a wave of innovative products and services.
+faq-what-cv-and-deepspeech-q = What’s the difference between AfriSauti and Deep Speech?
+faq-what-cv-and-deepspeech-a = The AfriSauti dataset complements Hubuk Technology’s open source voice recognition engine Deep Speech. The first version of Deep Speech was released in November 2017 and has continued to evolve ever since. Together with the AfriSauti dataset, we believe this open source voice recognition technology should be available to everybody. It’s our hope these technologies will enable developers to build a wave of innovative products and services.
 
-faq-is-goal-assistant-q = Is the goal of Common Voice to build a voice assistant?
-faq-is-goal-assistant-a = The goal of the Common Voice dataset is to enable anyone in the world to build speech recognition, speaker recognition, or any other type of application that requires voice data. A voice assistant is just one of many types of applications you could use the dataset to build.
+faq-is-goal-assistant-q = Is the goal of AfriSauti to build a voice assistant?
+faq-is-goal-assistant-a = The goal of the AfriSauti dataset is to enable anyone in the world to build speech recognition, speaker recognition, or any other type of application that requires voice data. A voice assistant is just one of many types of applications you could use the dataset to build.
 
 faq-do-want-native-q = I am a non-native speaker and I speak with an accent, do you still want my voice?
-faq-do-want-native-a = Yes, we especially want your voice! Part of the aim of Common Voice is to gather as many different accents as possible so that voice recognition services work equally well for everyone. This means donations from non-native speakers are particularly important.
+faq-do-want-native-a = Yes, we especially want your voice! Part of the aim of AfriSauti is to gather as many different accents as possible so that voice recognition services work equally well for everyone. This means donations from non-native speakers are particularly important.
 
 faq-why-different-speakers-q = Why do you need so many different speakers per language?
 faq-why-different-speakers-a =
@@ -374,15 +374,15 @@ faq-why-different-speakers-a =
     This is why in our voice database we want variety!
 
 faq-why-my-lang-q = Why is my language not included yet?
-faq-why-my-lang-new-a = Mozilla doesn’t pick or favor any one language over another. Instead, Common Voice is a purely community-driven initiative, but it takes <multilangLink>several steps to add a new language</multilangLink> and begin collecting voice donations. First, the Common Voice website needs to be translated so community members can access the contributor experience in their own language. Next, we need a large collection of copyright-free sentences for people to read outloud. Once both of those requirements are satisfied a language is “launched” on Common Voice for people to start recording their voice and validating others donations. If you want to help launch a new language, head over to our <sentenceCollectorLink>sentence collection tool</sentenceCollectorLink> to get started.
+faq-why-my-lang-new-a = Hubuk Technology doesn’t pick or favor any one language over another. Instead, AfriSauti is a purely community-driven initiative, but it takes <multilangLink>several steps to add a new language</multilangLink> and begin collecting voice donations. First, the AfriSauti website needs to be translated so community members can access the contributor experience in their own language. Next, we need a large collection of copyright-free sentences for people to read outloud. Once both of those requirements are satisfied a language is “launched” on AfriSauti for people to start recording their voice and validating others donations. If you want to help launch a new language, head over to our <sentenceCollectorLink>sentence collection tool</sentenceCollectorLink> to get started.
 
 faq-what-quality-q = What level of audio quality is required for a voice clip to be used in the dataset?
-faq-what-quality-a = We want the Common Voice dataset to reflect the audio quality a speech-to-text engine will hear in the wild, so we’re looking for variety. In addition to a diverse community of speakers, a dataset with varying audio quality will teach the speech-to-text engine to handle various real-world situations, from background talking to car noise. As long as your voice clip is intelligible, it should be good enough for the dataset.
+faq-what-quality-a = We want the AfriSauti dataset to reflect the audio quality a speech-to-text engine will hear in the wild, so we’re looking for variety. In addition to a diverse community of speakers, a dataset with varying audio quality will teach the speech-to-text engine to handle various real-world situations, from background talking to car noise. As long as your voice clip is intelligible, it should be good enough for the dataset.
 
 faq-why-10k-hours-q = Why is 10,000 validated hours the per language goal for capturing audio?
 faq-why-10k-hours-a = This is approximately the number of hours required to train a production speech-to-text system.
 
-faq-how-calc-hours-q = How does Common Voice calculate hours?
+faq-how-calc-hours-q = How does AfriSauti calculate hours?
 faq-how-calc-hours-a = We calculate hours by estimating the average length of each recording, and then multiplying that number by the total number of recordings across all languages.
 
 faq-where-src-from-2-q = Where does the source text come from?
@@ -392,7 +392,7 @@ faq-where-src-from-2-a =
     You can view our source sentences in this <githubLink>GitHub folder</githubLink>.
 
 faq-why-not-ask-read-q = Why don’t you ask people to read from books or Wikipedia articles in different languages?
-faq-why-not-ask-read-a = To make the Common Voice dataset as useful as possible we have decided to only allow source text that is available under a Creative Commons (CC0) license. Using the CC0 standard means its more difficult to find and collect source text, but allows anyone to use the resulting voice data without usage restrictions or authorization from Mozilla. Ultimately, we want to make the multi-language dataset as useful as possible to everyone, including researchers, universities, startups, governments, social purpose organizations, and hobbyists.
+faq-why-not-ask-read-a = To make the AfriSauti dataset as useful as possible we have decided to only allow source text that is available under a Creative Commons (CC0) license. Using the CC0 standard means its more difficult to find and collect source text, but allows anyone to use the resulting voice data without usage restrictions or authorization from Hubuk Technology. Ultimately, we want to make the multi-language dataset as useful as possible to everyone, including researchers, universities, startups, governments, social purpose organizations, and hobbyists.
 
 faq-why-account-q = Why should I sign up for an account?
 faq-is-account-public-q = Is my account information public?
@@ -400,15 +400,15 @@ faq-is-account-public-q = Is my account information public?
 faq-how-privacy-q = How do you ensure anonymity and privacy of the people who donated their voices?
 faq-how-privacy-a = All voice clips in the dataset are scrubbed of personally identifying information. When a contributor provides demographic data via their profile, that information is de-identified from their voice clips before being bundled for download in the dataset and is never made public on their profile page.
 
-faq-what-determine-identity-q = What does it mean that I can’t “determine the identity” of speakers in the Common Voice dataset?
+faq-what-determine-identity-q = What does it mean that I can’t “determine the identity” of speakers in the AfriSauti dataset?
 faq-what-determine-identity-a =
-    The Common Voice dataset is an open and publicly available resource that can be used to train a wide variety of speech-enabled applications. To protect the security of our contributors, we ask everyone who downloads the Common Voice dataset to respect contributors’ privacy.
+    The AfriSauti dataset is an open and publicly available resource that can be used to train a wide variety of speech-enabled applications. To protect the security of our contributors, we ask everyone who downloads the AfriSauti dataset to respect contributors’ privacy.
 
     All voice clips in the dataset are scrubbed of personally identifying information. When you download the dataset, you agree to not attempt to determine the identity of any contributor. That means you cannot try to link information in the dataset to a contributor’s personal information. You may, however, use the dataset to train speech recognition, speaker recognition, or other applications, by, for instance, linking information in the dataset to other information already in the dataset.
 
-faq-what-is-cv = What is Common Voice?
-faq-using-cv = Using Common Voice
-faq-description = Common Voice is part of Mozilla's initiative to help teach machines how real people speak.
+faq-what-is-cv = What is AfriSauti?
+faq-using-cv = Using AfriSauti
+faq-description = AfriSauti is part of Hubuk Technology's initiative to help teach machines how real people speak.
 faq-search-for-answers =
     .label = Search for answers
 
@@ -428,17 +428,17 @@ about-listen-text = Users validate the accuracy of donated clips, checking that 
 about-is-it-valid = Is the clip valid?
 about-is-it-valid-text = A voice clip is marked "valid" when a user gives it a Yes vote.
 about-yes-votes = ≥ 2 Yes votes
-about-yes-votes-text = To make it into the Common Voice dataset, a voice clip must be validated by two separate users.
+about-yes-votes-text = To make it into the AfriSauti dataset, a voice clip must be validated by two separate users.
 about-no-votes = ≥ 2 No votes
 about-no-votes-text = When a user rejects a voice clip it returns to the Queue. If rejected a second time, the voice clip is moved to the Clip Graveyard.
-about-dataset-new = Common Voice Dataset
-about-dataset-new-text = The Common Voice Dataset contains hundreds of thousands of voice samples that help developers build voice recognition tools.
+about-dataset-new = AfriSauti Dataset
+about-dataset-new-text = The AfriSauti Dataset contains hundreds of thousands of voice samples that help developers build voice recognition tools.
 about-clip-graveyard = Clip Graveyard
-about-clip-graveyard-text = The Clip Graveyard consists of voice clips that didn't make it into the Common Voice dataset. Just like the dataset, the Clip Graveyard is available for download.
+about-clip-graveyard-text = The Clip Graveyard consists of voice clips that didn't make it into the AfriSauti dataset. Just like the dataset, the Clip Graveyard is available for download.
 
 about-partners = Partners
 about-become-a-partner = Become a partner
-about-partnership = Common Voice is a collaborative project, and we're depending on our community of partners and contributors to build the largest open-source dataset of voices ever.
+about-partnership = AfriSauti is a collaborative project, and we're depending on our community of partners and contributors to build the largest open-source dataset of voices ever.
 
     We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Get involved
@@ -474,7 +474,7 @@ notfound-title = Not found
 notfound-content = I’m afraid I don’t know what you’re looking for.
 
 ## Data
-data-download-button = Download Common Voice Data
+data-download-button = Download AfriSauti Data
 data-download-yes = Yes
 data-download-deny = No
 data-download-license = License: <licenseLink>CC-0</licenseLink>
@@ -486,7 +486,7 @@ data-other-title = Other voice datasets…
 data-other-goto = Go to { $name }
 data-other-download = Download Data
 data-bundle-button = Download Dataset Bundle
-data-bundle-description = Common Voice data plus all other voice datasets above.
+data-bundle-description = AfriSauti data plus all other voice datasets above.
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixed
 
@@ -507,9 +507,9 @@ datasets-headline = We’re building an open source, multi-language dataset of v
 datasets-positioning =
     We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.
 
-    Common Voice’s multi-language dataset is already the largest publicly available voice dataset of its kind, but it’s not the only one.
+    AfriSauti’s multi-language dataset is already the largest publicly available voice dataset of its kind, but it’s not the only one.
 
-    Look to this page as a reference hub for other open source voice datasets and, as Common Voice continues to grow, a home for our release updates.
+    Look to this page as a reference hub for other open source voice datasets and, as AfriSauti continues to grow, a home for our release updates.
 language = Language
 # File size in gigabytes
 size = Size
@@ -524,28 +524,28 @@ why-email = <b>Why an email?</b> We may need to contact you in the future about 
 confirm-size = You are prepared to initiate a download of <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>You agree</b> to not attempt to determine the identity of speakers in the Common Voice dataset
+confirm-no-identify = <b>You agree</b> to not attempt to determine the identity of speakers in the AfriSauti dataset
 download-language = Download { $language }
 validated-hours = Validated Hours
 recorded-hours = Recorded Hours
-whats-inside = What’s inside the Common Voice dataset?
+whats-inside = What’s inside the AfriSauti dataset?
 dataset-description-hours =
         Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $total }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
 
         The dataset currently consists of <b>{ $valid }</b> validated hours in <b>{ $languages }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
-want-dataset-update = Want updates when we release a new version of the Common Voice dataset? Subscribe to our newsletter.
+want-dataset-update = Want updates when we release a new version of the AfriSauti dataset? Subscribe to our newsletter.
 subscribe = Subscribe
 get-started-speech = Get Started with Speech Recognition
 other-datasets = Other Voice Datasets
 feedback-q = Have Feedback?
-deepspeech-info = The Common Voice dataset complements Mozilla’s open source voice recognition engine Deep Speech, which you can use to build speech recognition applications. Read our <githubLink>Github overview</githubLink> or join the <discourseLink>DeepSpeech Discourse</discourseLink> to learn how to get started.
-common-voice-info-new = Have questions about Common Voice? Ideas for improvements or feedback about a specific language? Join us on our <discourseLink>Discourse forum</discourseLink> and let us know.
+deepspeech-info = The AfriSauti dataset complements Hubuk Technology’s open source voice recognition engine Deep Speech, which you can use to build speech recognition applications. Read our <githubLink>Github overview</githubLink> or join the <discourseLink>DeepSpeech Discourse</discourseLink> to learn how to get started.
+common-voice-info-new = Have questions about AfriSauti? Ideas for improvements or feedback about a specific language? Join us on our <discourseLink>Discourse forum</discourseLink> and let us know.
 data-other-librispeech-description = LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.
 data-other-voxforge-description = VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Recognition Engines.
 data-other-tatoeba-description = Tatoeba is a large database of sentences, translations, and spoken audio for use in language learning. This download contains spoken English recorded by their community.
-your-feedback = Do you have ideas on how we can make the Common Voice dataset better? Let us know on Discourse
+your-feedback = Do you have ideas on how we can make the AfriSauti dataset better? Let us know on Discourse
 go-discourse = Go to Discourse
 missing-language = Don’t see your language reflected in the Dataset? To request a language head over to our Languages page.
 go-languages-page = Go to Languages Page
@@ -561,7 +561,7 @@ download-helpus = Help us build a community around voice technology, stay in tou
 download-form-email =
     .label = Enter your email
     .value = Thank you, we'll be in touch.
-download-back = Return to Common Voice Datasets
+download-back = Return to AfriSauti Datasets
 download-no = No Thanks
 
 ## Contact Modal
@@ -577,7 +577,7 @@ request-language-title = Language Request
 request-language-form-language =
     .label = Language
 request-language-success-title = Language request successfully submitted, thank you.
-request-language-success-content = We will be in touch with more information about how to add your language to Common Voice very soon.
+request-language-success-content = We will be in touch with more information about how to add your language to AfriSauti very soon.
 select-language = Select a Language...
 other-language = Other Language
 
@@ -606,8 +606,8 @@ listen = Listen
 skip = Skip
 shortcuts = Shortcuts
 clips-with-count = <bold>{ $count }</bold> Clips
-goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
-goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
+goal-help-recording = You've helped AfriSauti reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
+goal-help-validation = You've helped AfriSauti reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
 contribute-more =
     { $count ->
        *[other] Ready to do { $count } more?
@@ -689,8 +689,8 @@ your-languages = Your Languages
 toward-next-goal = Toward next goal
 clips-you-recorded = Clips You've Recorded
 clips-you-validated = Clips You've Validated
-todays-recorded-progress = Today's Common Voice progress on clips recorded
-todays-validated-progress = Today's Common Voice progress on clips validated
+todays-recorded-progress = Today's AfriSauti progress on clips recorded
+todays-validated-progress = Today's AfriSauti progress on clips validated
 stats = Stats
 you = You
 everyone = Everyone
@@ -730,7 +730,7 @@ how-many-per-day = Great! How many clips per day?
 how-many-a-week = Great! How many clips a week?
 which-goal-type = Do you want to Speak, Listen or both?
 receiving-emails-info = You're currently set to receive emails such as goal reminders, my
-        progress updates and newsletters about Common Voice
+        progress updates and newsletters about AfriSauti
 n-clips = { NUMBER($count) } clips
 help-share-goal = Help us find more voices, share your goal
 confirm-goal = Confirm Goal
@@ -751,12 +751,12 @@ return-to-edit-goal = Return here to edit your goal anytime.
 share-goal = Share my goal
 
 ## Profile Delete
-delete-q = Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the Common Voice dataset?
+delete-q = Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the AfriSauti dataset?
 keep = Keep
 remove = Remove
-keep-info = Your anonymous voice recordings will remain in the Common Voice dataset. Once you delete your profile you will no longer be able to submit a request to remove your recordings from the dataset
+keep-info = Your anonymous voice recordings will remain in the AfriSauti dataset. Once you delete your profile you will no longer be able to submit a request to remove your recordings from the dataset
 remove-info = We will review your request to remove your voice recordings from the dataset. If your request is approved, we will contact those who have downloaded the dataset and request they remove your voice recordings as well.
-why-delete-recordings = Common Voice recordings are used by academics, small businesses, and voice recognition enthusiasts to help train and grow publicly available resources like voice models.
+why-delete-recordings = AfriSauti recordings are used by academics, small businesses, and voice recognition enthusiasts to help train and grow publicly available resources like voice models.
 
     Can you let us know why you would like your recordings deleted?
 profile-form-delete = Delete Profile
@@ -764,7 +764,7 @@ profile-form-delete = Delete Profile
 
 ## Landing
 welcome-staff = Welcome { $company } staff!
-help-contribute = You can help build a diverse, open-source dataset by creating a Common Voice profile and contributing your voice.
+help-contribute = You can help build a diverse, open-source dataset by creating a AfriSauti profile and contributing your voice.
 login-company = Log In / Sign Up with { $company } email
 profile-not-required = Having a profile is not required to contribute though it is helpful, see why below.
 read-more-about = Read more on our About page

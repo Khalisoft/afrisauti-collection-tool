@@ -32,7 +32,7 @@ export type CommonVoiceConfig = {
 const DEFAULTS: CommonVoiceConfig = {
   VERSION: null, // Migration number (e.g. 20171205171637), null = most recent
   RELEASE_VERSION: null, // release version set by nubis,
-  PROD: true, // Set to true for staging and production.
+  PROD: false, // Set to true for staging and production.
   SERVER_PORT: 8080,
   DB_ROOT_USER: 'root', // For running schema migrations.
   DB_ROOT_PASS: 'Aman@Secured2019',
@@ -41,8 +41,8 @@ const DEFAULTS: CommonVoiceConfig = {
   MYSQLDBNAME: 'voiceweb',
   MYSQLHOST: 'localhost',
   MYSQLPORT: 3306,
-  BUCKET_NAME: 'afri-speech',
-  BUCKET_LOCATION: 'us-east-2',
+  BUCKET_NAME: '',
+  BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
   SECRET: 'TODO: Set a secure SECRET in config.json',
   ADMIN_EMAILS:
@@ -53,9 +53,9 @@ const DEFAULTS: CommonVoiceConfig = {
   },
   AUTH0: {
     DOMAIN: 'amansulaiman.auth0.com',
-    CLIENT_ID: 'yi5ySSvPKO0iH1f140H9pIcMy2Rth45L',
+    CLIENT_ID: 'BJLdCXxEWnuXtKMd6Lxv6w6n0S5X6to0',
     CLIENT_SECRET:
-      'm5ULp3Y274E_5cOZrApMaA5VAu73Cin2Azhbl9_RRXxNAiKItjGuSOi3j4vJw2Ef',
+      '901J07VTu9LUVsKp44BMzgRbRHRqNrE_j_IGxo8PrDG2eHjdZs9UPBLShV-VSC-N',
   },
   IMPORT_SENTENCES: true,
   REDIS_URL: null,
