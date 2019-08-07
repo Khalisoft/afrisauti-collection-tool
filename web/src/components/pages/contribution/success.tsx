@@ -90,7 +90,11 @@ function Success({
 
   const [contributionCount, setContributionCount] = useState(null);
   const [currentCount, setCurrentCount] = useState(null);
-  const showAccountModalDefault = true;
+  const showAccountModalDefault =
+    flags.showAccountConversionModal &&
+    !hasAccount &&
+    !JSON.parse(localStorage.getItem(HAS_SEEN_ACCOUNT_MODAL_KEY));
+
   const [showAccountModal, setShowAccountModal] = useState(
     showAccountModalDefault
   );
@@ -162,9 +166,9 @@ function Success({
 
   return (
     <div className="contribution-success">
-      {showAccountModal && (
+      {/* {showAccountModal && (
         <AccountModal onRequestClose={() => setShowAccountModal(false)} />
-      )}
+      )} */}
 
       <div className="counter done">
         <CheckIcon />
