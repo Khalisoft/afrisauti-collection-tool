@@ -42,7 +42,7 @@ import { SentenceRecording } from './sentence-recording';
 import './speak.css';
 
 const MIN_RECORDING_MS = 1000;
-const MAX_RECORDING_MS = 10000;
+const MAX_RECORDING_MS = 12000;
 const MIN_VOLUME = 1;
 
 enum RecordingError {
